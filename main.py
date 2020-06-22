@@ -14,6 +14,6 @@ def home():
 
 
 if __name__ == '__main__':
-    print(iport)
+    #print(iport)
     #app.run(host='0.0.0.0', port=iport,debug = False)
     app.run()
