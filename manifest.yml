@@ -1,5 +1,0 @@
----
-applications:
- - name: APP-SHWETA
-   memory: 256M
-   timeout: 600
