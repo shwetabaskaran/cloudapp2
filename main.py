@@ -7,8 +7,7 @@ import os
 #iport = int(os.getenv('PORT', 8000))
 @app.route('/')
 def home():
-    if conn:
-        return render_template('home.html')
+    return render_template('home.html')
 
  
 
