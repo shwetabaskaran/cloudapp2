@@ -27,7 +27,7 @@ csvf.to_sql('EarthQuake', conn, if_exists='replace', index=False)
 print(csvf)
 
 
-iport = int(os.getenv('PORT', 8000))
+#iport = int(os.getenv('PORT', 8000))
 @app.route('/')
 def home():
         return render_template('home.html')
@@ -314,6 +314,6 @@ def question9():
         return render_template('home.html', finalrowsq9 = finrows)
 
 if __name__ == '__main__':
-    print(iport)
-    app.run(host='0.0.0.0', port=iport,debug = False)
-    #app.run()
+    #print(iport)
+    #app.run(host='0.0.0.0', port=iport,debug = False)
+    app.run()
